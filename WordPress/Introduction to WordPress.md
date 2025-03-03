@@ -1,13 +1,12 @@
 
 <h1>Introduction to WordPress Part 1: Creating a site on WordPress.com</h1>
-<h2>Presented by Sara Whitver, Alabama Digital Humanities Center</h2>
-<h3><a href:"">Access the slidedeck for this workshop</a></h3>
 
-<h2>Workshop Overview</h2>
+<h2>Overview</h2>
 Wordpress, an open access web publishing platform that is very popular within the DH community. We will talk about the difference between the Wordpress installations on the ADHC server and the cloud-based free accounts on Wordpress.com, navigating the dashboard, creating content, choosing a template, adding users, and importing or embedding media.
 
 <p>WordPress is a free open source platform for web publishing and a support community of content creators and developers who work within the WordPress environment.</p>  
-<h2>Wordpress.org v. Wordpress.com</h2>
+
+<h2><a href:"http://wordpress.org">WordPress.org</a> v. <a href:"http://wordpress.com">WordPress.com</a></h2>
 
 <p>Because WordPress is an application, a platform, a service, and a community, there are a few different ways we can access WordPress. Basically, it means that at its core, WordPress is a computer application that allows us to build websites. These websites can live on the WordPress server or almost any other server in the world. Wordpress is free to use. There are a few ways that we can build sites in WordPress:
 <ul>
@@ -17,9 +16,9 @@ Wordpress, an open access web publishing platform that is very popular within th
   
 <h2>Let’s Create an Account</h2>
   
-The ADHC hosts instances of WordPress on our servers for Digital Humanities Projects, but for today’s purpose we are all going to just make a sandbox site at WordPress.com.
+The ADHC hosts instances of WordPress on our servers for Digital Humanities Projects, but for today’s purpose we are all going to just make a sandbox site at <a href:"http://wordpress.com">WordPress.com</a>
 
-<a href:"">Go to WordPress.com</a>
+<h3><a href:"http://wordpress.com">WordPress.com</a></h3>
 <ol>
   <li>Create an account. Use the email account of your choice-- it is not necessary to use your UA email unless you choose. It just needs to be an email address that you have easy access to during this workshop.</li>
   <li>Follow the directions to verify your account and take measures to remember your password.</li>
