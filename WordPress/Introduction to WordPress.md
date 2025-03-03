@@ -6,7 +6,7 @@ Wordpress, an open access web publishing platform that is very popular within th
 
 <p>WordPress is a free open source platform for web publishing and a support community of content creators and developers who work within the WordPress environment.</p>  
 
-<h2><a href:"http://wordpress.org">WordPress.org</a> v. <a href:"http://wordpress.com">WordPress.com</a></h2>
+<h2><a href:"https://wordpress.org/">WordPress.org</a> v. <a href:"https://wordpress.com/">WordPress.com</a></h2>
 
 <p>Because WordPress is an application, a platform, a service, and a community, there are a few different ways we can access WordPress. Basically, it means that at its core, WordPress is a computer application that allows us to build websites. These websites can live on the WordPress server or almost any other server in the world. Wordpress is free to use. There are a few ways that we can build sites in WordPress:
 <ul>
