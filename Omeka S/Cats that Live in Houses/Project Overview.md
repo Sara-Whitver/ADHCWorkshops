@@ -1,6 +1,7 @@
 # Project Overview
-[Insert introduction similar to overview on CLH website]
+Throughout history, cats have shared houses with folks. Today in the United States, cats live in houses in every neighborhood in every community all across the country. They live in rural houses and urban houses; poor houses and rich houses; with single person and multi-person households. These cats live full lives of mystery and shenanigans. This is a collection of the documentary record of the lives and experiences of cats that live in houses.
 
+This project is an archive of the cats who live in our houses. The project was built as a sandbox at the Alabama Digital Humanities Center as a place for practice and training in the platform Omeka S. The project team includes librarians and library student employees who work closely with the ADHC as well as volunteer friends of the ADHC. 
 ## Site Layout
 Content on the Omeka S site is organized into three resource types: item set (Cat Record), item (Cat Image Record, Person Record), and media (Media Record).
 
