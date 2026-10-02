@@ -1,8 +1,8 @@
 {
-    "o:label": "Cats Item Set",
+    "o:label": "Cats Person",
     "o:resource_template_property": [
         {
-            "o:alternate_label": "Name",
+            "o:alternate_label": null,
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
@@ -18,17 +18,6 @@
             "o:is_required": false,
             "o:is_private": false,
             "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
-            "vocabulary_label": "Friend of a Friend",
-            "local_name": "nick",
-            "label": "nickname"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": "Biography",
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
             "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
             "vocabulary_label": "Dublin Core",
             "local_name": "description",
@@ -40,21 +29,10 @@
             "o:is_required": false,
             "o:is_private": false,
             "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
-            "vocabulary_label": "Friend of a Friend",
-            "local_name": "birthday",
-            "label": "birthday"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
-            "vocabulary_label": "Friend of a Friend",
-            "local_name": "interest",
-            "label": "interest"
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "relation",
+            "label": "Relation"
         },
         {
             "o:alternate_label": null,
@@ -64,8 +42,19 @@
             "data_types": [],
             "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
             "vocabulary_label": "Dublin Core",
-            "local_name": "relation",
-            "label": "Relation"
+            "local_name": "identifier",
+            "label": "Identifier"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "format",
+            "label": "Format"
         }
     ],
     "o:title_property": {
