@@ -2,7 +2,7 @@
 This macro reorganizes responses from a Google Form into a format that can be imported into an Omeka S site with the CSV Import module. It is designed to support projects with different ontological structures and forms with multiple branching sections.
 
 ## Overview
-The responses to a Google Form can be imported as an automatically updating worksheet in a Google Sheets workbook, where each submission i stored as a single row. When a form allows contributors to submit multiple related records, such as multiple cats and pictures, the resulting row contains separate columns for every possible entry.
+The responses to a Google Form can be imported as an automatically updating worksheet in a Google Sheets spreadsheet, where each submission is stored as a single row. When a form allows contributors to submit multiple related records, such as multiple cats and pictures, the resulting row contains separate columns for every possible entry.
 
 This macro reorganizes this data into individual records and generates an output sheet using the headers and section mappings specified in the configuration.
 
@@ -14,7 +14,35 @@ The macro uses three sheets:
 
 - **CSV Import:** Contains the final output, ready to be exported and imported into the destination platform.
 
-## Configuration
+## Setting up the Spreadsheet
+
+To process form responses, the form must be linked to a Google Sheets spreadsheet where the script can access the data.
+
+1. **Link the Form to Sheets:** Open your Google Form in edit mode, navigate to the Responses tab, and click **Link to Sheets**
+
+2. **Choose Workbook Destination:** Select **Create a new spreadsheet** or select an existing Google Sheet workbook to append the response tab into.
+
+3. **Verify Sheet Creation:** Open the newly linked Google Sheet and confirm that the responses appear in a sheet, typically named `Form Responses 1`.
+
+## Creating the Macro and Setting a Trigger
+
+To continually format new responses, the macro must be added with a trigger set to execute it whenever the spreadsheet is opened.
+
+1. **Open Apps Script:** Inside your Google Sheet, navigate to **Extensions** $\rightarrow$ **Apps Script**.
+
+2. **Paste the Script:** Replace any default code in the `Code.gs` file with the modular script. Remember to click the **Save** icon.
+
+3. **Create an Automatic Trigger:**
+-  In the left sidebar of the Apps Script editor, click **Triggers** (the alarm clock icon).
+
+- Click **+ Add Trigger** in the bottom-right corner.
+
+    * Under **Choose which function to run**, select your main execution function, `createMacroOutput`
+    * Under **Select event source**, choose **From spreadsheet**.
+    * Under **Select event type**, choose **On open**.
+    * Click **Save**
+
+## Macro Configuration
 All project-specific settings are located in the CONFIG object at the beginning of the script.
 
 ### Sheet Names
@@ -269,8 +297,6 @@ When adapting the macro to a new project, review the following settings in order
 7. Configure media records if the project uses uploaded files.
 
 8. Select or extend the relationship rules if necessary.
-
-9. Review the formatting options.
 
 10. Test the output with several responses, including responses with missing optional sections and multiple repeated records.
 
